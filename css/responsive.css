@@ -1,0 +1,214 @@
+@media only screen and (max-width:1199px) {}
+
+@media only screen and (max-width:992px) {}
+
+@media only screen and (max-width:991px) {
+    .hp-left {
+        width: 40%;
+    }
+
+    .hp-right {
+        width: 60%;
+    }
+
+    .hp-right {
+        padding: 12px 0;
+    }
+
+
+}
+
+
+
+
+
+@media only screen and (max-width:767px) {
+    .hp-left span {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .hp-left span:last-child {
+        display: block;
+        margin-bottom: 0;
+    }
+
+
+    .hp-left {
+        width: 50%;
+    }
+
+    .hp-right {
+        width: 50%;
+    }
+
+    .hr-icon {
+        width: 100%;
+        text-align: right;
+    }
+
+    .hp-right > div:first-child {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .hp-right {
+        padding: 0px 0;
+    }
+
+    .hp-right > div:first-child {
+        border-right: none;
+    }
+
+    .copyright-section .hr-icon {
+        text-align: right;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .contact-right .hr-icon {
+        text-align: left;
+    }
+
+    .about-photo {
+        text-align: center;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 575px) {
+    .login-box {
+        max-width: 450px;
+    }
+
+    .hp-left {
+        width: 100%;
+    }
+
+    .hp-right {
+        width: 100%;
+    }
+
+    .hp-right {
+        text-align: center;
+    }
+
+    .hr-icon {
+        text-align: center;
+    }
+
+    .hp-left span {
+        width: 50%;
+    }
+
+    .hp-left {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .ht-icon {
+        text-align: right;
+        padding-right: 5px;
+    }
+
+    .ht-icon:last-child {
+        text-align: left;
+        padding-left: 5px;
+    }
+
+
+    body {
+        font-size: 13px;
+    }
+
+
+    .slider-left h1 {
+        font-size: 25px;
+    }
+
+    .section-title h2 {
+        font-size: 22px;
+    }
+
+    .footer-head h6 {
+        font-size: 15px;
+    }
+
+    .ht-icon:first-child {
+        margin-right: 0px;
+    }
+
+
+    .main-logo img {
+        width: 150px;
+    }
+
+    /*    new*/
+    .ht-icon img {
+        width: 15px;
+    }
+
+    .hp-left span {
+        font-size: 13px;
+    }
+
+    .ht-icon img {
+        margin-right: 0;
+    }
+
+    .main-logo img {
+        width: 100px;
+    }
+
+    .mobile-btn i {
+        font-size: 20px;
+    }
+
+    .slider-left h1 {
+        line-height: 38px;
+    }
+
+    .slider-left a {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .section-title p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .chairman-photo {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .chairman-photo img {
+        margin-top: 30px;
+    }
+
+    .copyright-section .hr-icon {
+        text-align: right;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .copyright-section h6 {
+        font-weight: 500;
+        font-size: 14px;
+        color: var(--wc);
+        margin: 0;
+        text-align: center;
+    }
+
+    .mobile-menu {
+        width: 100%;
+    }
+
+
+}
+
+@media only screen and (max-width: 570px) {}
