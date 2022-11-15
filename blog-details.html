@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Incubator</title>
+    <link rel="icon" href="images/logo/invest-favicon.PNG" type="image/gif" sizes="16x16">
+    <!--    BOOSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <!--    BOOSTRAP ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css">
+    <!--    NICE SELECT-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" integrity="sha512-nMNlpuaDPrqlEls3IX/Q56H36qvBASwb3ipuo3MxeWbsQB1881ox0cRv7UPTgBlriqoynt35KjEwgGUeUXIPnw==" crossorigin="anonymous" />
+
+    <!--    GOOGLE FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!--    FONT AWSOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+    <!--    SLICK SLIDER-->
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <!--    MAIN STYLE-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!--    HEADER TOP-->
+    <section class="header-top clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="hp-left clearfix">
+                    <span class="ht-icon">
+                        <img src="images/icons/phone.png" alt="">
+                        +8801847-091084
+                    </span>
+                    <span class="ht-icon">
+                        <img src="images/icons/email.png" alt="">
+                        info@maguragroup.com.bd
+                    </span>
+                </div>
+                <div class="hp-right clearfix">
+                    <div class="hr-icon">
+                        <span>Follow Us:</span>
+                        <a href="#">
+                            <img src="images/icons/facebook.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/icons/twitter.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/icons/linkdin.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/icons/instragm.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/icons/youtube.png" alt="">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--   END HEADER TOP-->
+
+    <!--    HEADER SECTION-->
+    <header class="header-section d-flex align-items-center">
+        <div class="container">
+            <div class="head-content">
+                <div class="row align-items-center">
+                    <div class="col-12 col-xl-2">
+                        <div class="main-logo d-xl-block d-flex align-items-center justify-content-between">
+                            <a href="#">
+                                <img src="images/logo/logo.png" alt="logo">
+                            </a>
+                            <span class="mobile-btn d-block d-xl-none" id="mobile-btn">
+                                <i onclick="mobilemenu()" class="fa fa-bars"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-10 d-none d-xl-block">
+                        <div class="menubar">
+                            <ul>
+                                <li><a href="#"> Home</a></li>
+                                <li><a href="#"> About Us</a></li>
+                                <li><a href="#">Product</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#"> Companies</a></li>
+                                <li><a href="#"> Chaiman Spech</a></li>
+                                <li><a href="#">Career</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!--        MOBILE MENU-->
+    <div id="mobile-menu" class="mobile-menu">
+        <!-- accordion-->
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="mobile-logo">
+                <a href="#">
+                    <img src="images/logo/logo.png" alt="mobile-logo">
+                </a>
+
+                <i class="bi bi-x-circle" onClick="mobilemenu()"></i>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            home
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <!--
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button custom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#two" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        <i class="fa fa-server"></i>
+                        our service
+                    </button>
+                </h2>
+                <div id="two" class="accordion-collapse collapse" aria-labelledby="two" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body custom">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>company details</a></li>
+
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>doctors</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+-->
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            About Us
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Product
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Services
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Companies
+                        </button>
+                    </a>
+                </h2>
+            </div>
+
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Chaiman Spech
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Career
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Contact
+                        </button>
+                    </a>
+                </h2>
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="mobile-screen mobile-click" onClick="mobilemenu()"></div>
+    <!--   END MOBILE MENU-->
+
+
+    <!--    PAGE HEAD SECTION-->
+    <section class="page-head-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Blog Details</h2>
+                    <p class="text-white">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, odit.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    PAGE HEAD SECTION END-->
+
+    <!--    BLOG DETAILS-->
+    <section class="blog-section" style="background: none;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-8">
+                      <div class="blog-left py-5">
+                        <div class="blog-image">
+                            <img src="images/blogs/1.png" alt="Blog Photo">
+                        </div>
+                        <span class="blog-date">04 Dec 2021</span>
+                        <h4 class="blog-details-head">
+                            There are many variations of passages of Lorem Ipsum available,
+                        </h4>
+                        
+                        
+                        <div class="blog-ditails py-3">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, voluptate, non. Vitae ut sint, omnis architecto blanditiis inventore est possimus quod, labore tempora culpa recusandae vel asperiores harum dolor, cum facere nobis non similique cupiditate nulla porro et repellat reprehenderit! Debitis totam nostrum optio placeat quo veniam, repellat reprehenderit a.
+                            </p>
+                             <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, voluptate, non. Vitae ut sint, omnis architecto blanditiis inventore est possimus quod, labore tempora culpa recusandae vel asperiores harum dolor, cum facere nobis non similique cupiditate nulla porro et repellat reprehenderit! Debitis totam nostrum optio placeat quo veniam, repellat reprehenderit a.
+                            </p>
+                        </div>
+
+
+                        <div class="posted-blog d-sm-flex py-3 align-items-center">
+                            <div>
+                                <span>Posted by Admin</span>
+                                <a href="#">
+                                    <img src="images/icons/like.png" alt="">
+                                </a>
+                                <span>245</span>
+                                <a href="#">
+                                    <img src="images/icons/comment.png" alt="">
+                                </a>
+                                <span>245</span>
+                            </div>
+                            <div class="social-icons mt-4 mt-sm-0">
+                                <span>Share :</span>
+                                <a href="#">
+                                   <i class="fa fa-facebook" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                   <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                                </a>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="blog-right sticky-blog-right my-5">
+                        <div class="blog-search">
+                            <form action="#">
+                                <input type="search" placeholder="Search">
+                            </form>
+                        </div>
+                        <div class="blog-category-box py-3 mt-4">
+                            <h4 class="border-bottom">Category</h4>
+                            <div class="py-2">
+                                <a href="#">Ac Repair Tips
+                                    <i class="bi bi-chevron-right"></i>
+                                </a>
+                                <a href="#">Electrical Product Price
+                                    <i class="bi bi-chevron-right"></i>
+                                </a>
+                                <a href="#">Plumbing Material
+                                    <i class="bi bi-chevron-right"></i>
+                                </a>
+                                <a href="#">Plumbing Material
+                                    <i class="bi bi-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="blog-sidbar-post mt-4">
+                            <h3 class="border-bottom">Recent Post</h3>
+                            <div class="sidbar-blog-box d-flex py-2">
+                                <img src="images/blogs/1.png" alt="Blog Photo">
+                                <div class="content">
+                                    <h6>
+                                        It is a long established fact that a reader..
+                                    </h6>
+                                    <p>
+                                        <span>Posted by Admin</span>
+
+                                        <span>01 Hr 25 min ago</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="sidbar-blog-box d-flex py-2">
+                                <img src="images/blogs/2.png" alt="Blog Photo">
+                                <div class="content">
+                                    <h6>
+                                        It is a long established fact that a reader..
+                                    </h6>
+                                    <p>
+                                        <span>Posted by Admin</span>
+                                        <span>01 Hr 25 min ago</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="sidbar-blog-box d-flex py-2">
+                                <img src="images/blogs/3.png" alt="Blog Photo">
+                                <div class="content">
+                                    <h6>
+                                        It is a long established fact that a reader..
+                                    </h6>
+                                    <p>
+                                        <span>Posted by Admin</span>
+                                        <span>01 Hr 25 min ago</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="blog-sidbar-post mt-4">
+                            <h3 class="border-bottom">Popular Post</h3>
+                            <div class="sidbar-blog-box d-flex py-2">
+                                <img src="images/blogs/1.png" alt="Blog Photo">
+                                <div class="content">
+                                    <h6>
+                                        It is a long established fact that a reader..
+                                    </h6>
+                                    <p>
+                                        <span>Posted by Admin</span>
+                                        <span>01 Hr 25 min ago</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="sidbar-blog-box d-flex py-2">
+                                <img src="images/blogs/2.png" alt="Blog Photo">
+                                <div class="content">
+                                    <h6>
+                                        It is a long established fact that a reader..
+                                    </h6>
+                                    <p>
+                                        <span>Posted by Admin</span>
+                                        <span>01 Hr 25 min ago</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="sidbar-blog-box d-flex py-2">
+                                <img src="images/blogs/3.png" alt="Blog Photo">
+                                <div class="content">
+                                    <h6>
+                                        It is a long established fact that a reader..
+                                    </h6>
+                                    <p>
+                                        <span>Posted by Admin</span>
+                                        <span>01 Hr 25 min ago</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="hr-icon pt-5">
+                                <span>Follow Us:</span>
+                                <a href="#">
+                                    <img src="images/icons/facebook-dark.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="images/icons/twitter-dark.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="images/icons/linkdin-dark.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="images/icons/instragram-dark.png" alt="">
+                                </a>
+                                <a href="#">
+                                    <img src="images/icons/youtube-dark.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    BLOG DETAILS END-->
+
+
+    <!--    FOOTER SECTION-->
+    <footer class="clearfix">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 col-sm-4 col-md-3 d-none d-sm-block">
+                    <div class="footer-logo">
+                        <a href="#">
+                            <img src="images/logo/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="footer-p">
+                        <p>The Largest Group of Company in Bangladesh</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-8 col-md-9 pt-2 pt-lg-5">
+                    <div class="footer-form">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-lg-6 col-xl-7">
+                                <h4>Subscribe to Newsletter</h4>
+                                <p>Subscribe for the latest newsletters, achievements, news and events.</p>
+                            </div>
+                            <div class="col-12 col-lg-6 col-xl-5 mt-3 mt-lg-0">
+                                <form action="" class="footer-form-input">
+                                    <input type="text" placeholder="Email">
+                                    <button type="submit">Subcribed</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row py-3">
+                <div class="col-12 col-md-6 col-lg-3 mt-3 mt-md-0">
+                    <div class="footer-box">
+
+                        <div>
+                            <a href="#">FAQ’s</a>
+                            <a href="#">Trusted</a>
+                            <a href="#">Help Center</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mt-3 mt-md-0">
+                    <div class="footer-box">
+                        <h6>Importent Link</h6>
+
+                        <div>
+                            <a href="#">Career Link</a>
+                            <a href="#">Group Of Company</a>
+                            <a href="#">Business Policy</a>
+                            <a href="#">Terms & Condition</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mt-3 mt-md-0">
+                    <div class="footer-box">
+                        <h6>Contact Information</h6>
+
+                        <div>
+                            <a href="#">Contact Info</a>
+                            <a href="#">Head Office Address</a>
+                            <a href="#">Our Tex Number</a>
+                            <a href="#">Help Desk</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mt-3 mt-md-0">
+                    <div class="scroll-up">
+                        <a href="javascript:void(0)" id="button"><i class="bi bi-arrow-up"></i></a>
+                        <br>
+                        <span>Scroll Up</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!--    FOOTER SECTION END-->
+
+    <!--    COPYRIGHT SECTION-->
+    <section class="copyright-section py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <h6>© Copyright © 2021 Magura Group. All rights reserved. Designed by Shayem </h6>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="hr-icon">
+                        <span>Follow Us:</span>
+                        <a href="#">
+                            <img src="images/icons/facebook.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/icons/twitter.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/icons/linkdin.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/icons/instragm.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/icons/youtube.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    COPYRIGHT SECTION-->
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--    BOOSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/slick.min.js"></script>
+
+
+
+
+
+</body>
+
+</html>

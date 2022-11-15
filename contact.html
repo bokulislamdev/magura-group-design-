@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Incubator</title>
+    <link rel="icon" href="images/logo/invest-favicon.PNG" type="image/gif" sizes="16x16">
+    <!--    BOOSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <!--    BOOSTRAP ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css">
+    <!--    NICE SELECT-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" integrity="sha512-nMNlpuaDPrqlEls3IX/Q56H36qvBASwb3ipuo3MxeWbsQB1881ox0cRv7UPTgBlriqoynt35KjEwgGUeUXIPnw==" crossorigin="anonymous" />
+
+    <!--    GOOGLE FONT-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!--    FONT AWSOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+    <!--    SLICK SLIDER-->
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <!--    MAIN STYLE-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    <!--    HEADER TOP-->
+    <section class="header-top clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="hp-left clearfix">
+                    <span class="ht-icon">
+                        <img src="images/icons/phone.png" alt="">
+                        +8801847-091084
+                    </span>
+                    <span class="ht-icon">
+                        <img src="images/icons/email.png" alt="">
+                        info@maguragroup.com.bd
+                    </span>
+                </div>
+                <div class="hp-right clearfix">
+                    <div class="hr-icon">
+                        <span>Follow Us:</span>
+                        <a href="#">
+                            <img src="images/icons/facebook.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/icons/twitter.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/icons/linkdin.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/icons/instragm.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/icons/youtube.png" alt="">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--   END HEADER TOP-->
+
+    <!--    HEADER SECTION-->
+    <header class="header-section d-flex align-items-center">
+        <div class="container">
+            <div class="head-content">
+                <div class="row align-items-center">
+                    <div class="col-12 col-xl-2">
+                        <div class="main-logo d-xl-block d-flex align-items-center justify-content-between">
+                            <a href="#">
+                                <img src="images/logo/logo.png" alt="logo">
+                            </a>
+                            <span class="mobile-btn d-block d-xl-none" id="mobile-btn">
+                                <i onclick="mobilemenu()" class="fa fa-bars"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col-10 d-none d-xl-block">
+                        <div class="menubar">
+                            <ul>
+                                <li><a href="#"> Home</a></li>
+                                <li><a href="#"> About Us</a></li>
+                                <li><a href="#">Product</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#"> Companies</a></li>
+                                <li><a href="#"> Chaiman Spech</a></li>
+                                <li><a href="#">Career</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <!--        MOBILE MENU-->
+    <div id="mobile-menu" class="mobile-menu">
+        <!-- accordion-->
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="mobile-logo">
+                <a href="#">
+                    <img src="images/logo/logo.png" alt="mobile-logo">
+                </a>
+
+                <i class="bi bi-x-circle" onClick="mobilemenu()"></i>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            home
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <!--
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button custom collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#two" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        <i class="fa fa-server"></i>
+                        our service
+                    </button>
+                </h2>
+                <div id="two" class="accordion-collapse collapse" aria-labelledby="two" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body custom">
+                        <ul>
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>company details</a></li>
+
+                            <li><a href="#"><i class="fa fa-chevron-right"></i>doctors</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+-->
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            About Us
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Product
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Services
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Companies
+                        </button>
+                    </a>
+                </h2>
+            </div>
+
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Chaiman Spech
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Career
+                        </button>
+                    </a>
+                </h2>
+            </div>
+            <div class="accordion-item custom">
+                <h2 class="accordion-header" id="flush-headingThree">
+                    <a href="#">
+                        <button class="accordion-button custom collapsed none" type="button">
+                            Contact
+                        </button>
+                    </a>
+                </h2>
+            </div>
+
+
+        </div>
+
+    </div>
+    <div class="mobile-screen mobile-click" onClick="mobilemenu()"></div>
+    <!--   END MOBILE MENU-->
+
+
+    <!--    PAGE HEAD SECTION-->
+    <section class="page-head-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Contact</h2>
+                    <p class="text-white">
+                        Need to Argent contact? use any method.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    PAGE HEAD SECTION END-->
+
+    <!--    CONTACT SECTION-->
+    <section class="contact-section py-5">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-12 col-md-6">
+                    <div class="contact-left">
+                        <h6>Please Send Your Comments Here:</h6>
+                        <p>For any suggestion or query please send your comments to us.</p>
+
+                        <div class="contact-form">
+                            <form action="#">
+                                <div class="py-2">
+                                    <input type="text" placeholder="Name">
+                                </div>
+                                <div class="py-2">
+                                    <input type="text" placeholder="Email">
+                                </div>
+                                <div class="py-2">
+                                    <input type="text" placeholder="Subject">
+                                </div>
+                                <div class="py-2">
+                                    <textarea name="" placeholder="Massage"></textarea>
+                                </div>
+                                <div class="py-2">
+                                    <button type="submit">Send Massage</button>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mt-5 mt-md-0">
+                    <div class="contact-right">
+                        <h4>Official Address</h4>
+                        <div class="contact-right-box pt-2">
+                            <p class="pb-3">
+                                Plot No.-314/A, Road-18, Block-E,Bashundhara Avenue Road,Bashundhara Residential Area,Dhaka 1229, Bangladesh.
+                            </p>
+                            <p>
+                                Tel : +88-02-8431095-6, 8431883-5,8431092-3
+                            </p>
+                            <p>Fax: +88-02-8431886</p>
+                            <p>Phone : +8801847-091084
+                            </p>
+                            <p>
+                                E-mail: info@maguragroup.com.bd
+                            </p>
+                            <p>Web: www.maguragroup.com.bd</p>
+                        </div>
+
+                        <div class="hr-icon pt-5">
+                            <span>Follow Us:</span>
+                            <a href="#">
+                                <img src="images/icons/facebook-dark.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="images/icons/twitter-dark.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="images/icons/linkdin-dark.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="images/icons/instragram-dark.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="images/icons/youtube-dark.png" alt="">
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    CONTACT SECTION END-->
+    
+
+    <!--    CONTACT BOTTOM-->
+    <section class="contact-bottom-section py-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="ready-question mt-3">
+                        <h4>Ready Made Question</h4>
+                        <p class="q-text">Check our QA section to find your answare other ways just send us your query</p>
+
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                        <span>01</span>
+                                        How many product are you made for export?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body"> Lorem ipsum dolor sit amet consectetur. Dui quam sapien morbi id volutpat viverra. Dictum sapien habitant accumsan sapien purus at cursus.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        <span>02</span>
+                                        How much companies are included with you?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur. Dui quam sapien morbi id volutpat viverra. Dictum sapien habitant accumsan sapien purus at cursus.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                        <span>03</span>
+                                        What is the raw business of your?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur. Dui quam sapien morbi id volutpat viverra. Dictum sapien habitant accumsan sapien purus at cursus.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                        <span>04</span>
+                                        How many product are you made for export?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur. Dui quam sapien morbi id volutpat viverra. Dictum sapien habitant accumsan sapien purus at cursus.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 mt-4 mt-md-0">
+                    <div class="contact-location">
+                        <h4>Geo Location</h4>
+                        <div class="location-box mt-4">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d233667.8223924372!2d90.27919370747217!3d23.780887456211758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1668505485371!5m2!1sen!2sbd" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    CONTACT BOTTOM END-->
+
+
+    <!--    FOOTER SECTION-->
+    <footer class="clearfix">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-12 col-sm-4 col-md-3 d-none d-sm-block">
+                    <div class="footer-logo">
+                        <a href="#">
+                            <img src="images/logo/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="footer-p">
+                        <p>The Largest Group of Company in Bangladesh</p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-8 col-md-9 pt-2 pt-lg-5">
+                    <div class="footer-form">
+                        <div class="row align-items-center">
+                            <div class="col-12 col-lg-6 col-xl-7">
+                                <h4>Subscribe to Newsletter</h4>
+                                <p>Subscribe for the latest newsletters, achievements, news and events.</p>
+                            </div>
+                            <div class="col-12 col-lg-6 col-xl-5 mt-3 mt-lg-0">
+                                <form action="" class="footer-form-input">
+                                    <input type="text" placeholder="Email">
+                                    <button type="submit">Subcribed</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row py-3">
+                <div class="col-12 col-md-6 col-lg-3 mt-3 mt-md-0">
+                    <div class="footer-box">
+
+                        <div>
+                            <a href="#">FAQ’s</a>
+                            <a href="#">Trusted</a>
+                            <a href="#">Help Center</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mt-3 mt-md-0">
+                    <div class="footer-box">
+                        <h6>Importent Link</h6>
+
+                        <div>
+                            <a href="#">Career Link</a>
+                            <a href="#">Group Of Company</a>
+                            <a href="#">Business Policy</a>
+                            <a href="#">Terms & Condition</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mt-3 mt-md-0">
+                    <div class="footer-box">
+                        <h6>Contact Information</h6>
+
+                        <div>
+                            <a href="#">Contact Info</a>
+                            <a href="#">Head Office Address</a>
+                            <a href="#">Our Tex Number</a>
+                            <a href="#">Help Desk</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 mt-3 mt-md-0">
+                    <div class="scroll-up">
+                        <a href="javascript:void(0)" id="button"><i class="bi bi-arrow-up"></i></a>
+                        <br>
+                        <span>Scroll Up</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!--    FOOTER SECTION END-->
+
+    <!--    COPYRIGHT SECTION-->
+    <section class="copyright-section py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <h6>© Copyright © 2021 Magura Group. All rights reserved. Designed by Shayem </h6>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="hr-icon">
+                        <span>Follow Us:</span>
+                        <a href="#">
+                            <img src="images/icons/facebook.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/icons/twitter.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/icons/linkdin.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/icons/instragm.png" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="images/icons/youtube.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    COPYRIGHT SECTION-->
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--    BOOSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/slick.min.js"></script>
+
+
+
+
+
+</body>
+
+</html>
