@@ -879,6 +879,10 @@ footer {
 
 .page-head-section p {
     text-align: center;
+    MAX-WIDTH: 500px;
+    margin: 0 auto;
+    color: var(--wc);
+    font-size: 16px;
 }
 
 .page-head-section p a {
@@ -1149,47 +1153,55 @@ footer {
 /*BLOG DETAILS END*/
 
 /*MENAGEMENT PAGE*/
-.about-text h5{
+.about-text h5 {
     color: #1FAEFF;
 }
-.menagement-text p{
+
+.menagement-text p {
     font-size: 16px;
 }
 
-.staf-profile-box{
+.staf-profile-box {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
     background: var(--wc);
 }
-.staf-profile-box img{
+
+.staf-profile-box img {
     width: 60%;
     margin-bottom: 15px;
     background: var(--wc);
 }
-.staf-profile-box h4{
+
+.staf-profile-box h4 {
     font-size: 18px;
     color: var(--sc);
 }
-.staf-profile-box h6{
+
+.staf-profile-box h6 {
     font-size: 24px;
     color: var(--pc);
     padding: 8px 0;
 }
-.staf-profile-box a{
+
+.staf-profile-box a {
     font-size: 14px;
     color: var(--pc);
 }
-.staf-profile-box:hover a{
+
+.staf-profile-box:hover a {
     text-decoration: underline;
 }
-.staf-head h4{
+
+.staf-head h4 {
     text-align: center;
     color: var(--sc);
     font-size: 28px;
 }
-.staf-head h4::after{
+
+.staf-head h4::after {
     display: block;
     width: 100px;
     height: 3px;
@@ -1202,38 +1214,205 @@ footer {
 /*MENAGEMENT PAGE END*/
 
 /*COMPANY PROFILE*/
-.logo-image{
+.logo-image {
     text-align: center;
 }
-.logo-image img{
+
+.logo-image img {
     width: 200px;
 }
-.profile-in-state{
+
+.profile-in-state {
     background: #6329E1;
     padding: 50px;
     color: var(--wc);
     border: 1px solid #02005B;
     border-left: 25px solid var(--pc);
-    
+
 }
-.profile-in-state p{
+
+.profile-in-state p {
     margin: 0;
     font-size: 22px;
 }
-.profile-text p{
+
+.profile-text p {
     font-size: 18px;
     color: var(--sc);
 }
-.quelity-process-section{ 
+
+.quelity-process-section {
     background: var(--wc);
 }
-.quelity-process-section h4{
+
+.quelity-process-section h4 {
     color: var(--pc);
     font-size: 22px;
     margin-bottom: 10px;
 }
-.quelity-process-section p{
+
+.quelity-process-section p {
     color: var(--sc);
     font-size: 18px;
 }
+
 /*COMPANY PROFILE END*/
+
+/*OTHERS PAGE*/
+.award-box img {
+    width: 100%;
+}
+
+.award-box {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    padding: 15px;
+    background: var(--wc);
+    position: relative;
+    border-radius: 3px;
+}
+
+.award-box span {
+    font-size: 14px;
+    margin-top: 15px;
+    color: var(--pc);
+}
+
+.award-box h4 {
+    color: var(--pc);
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.award-box a {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.award-box p {
+    margin: 0;
+}
+
+.award-box:hover h4 {
+    text-decoration: underline;
+}
+
+.award-total {
+    padding: 20px;
+    border-radius: 5px;
+    background: var(--wc);
+    margin:
+}
+
+.award-total span {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.award-total a {
+    color: var(--pc);
+    text-decoration: underline;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.awards-details-head span {
+    font-weight: 500;
+    color: var(--pc);
+}
+
+.awards-details-head h4 {
+
+    font-size: 35px;
+    padding-top: 5px;
+}
+
+.safty-photo img {
+    width: 100%;
+}
+
+.about-text.safty-text ul {
+    padding-left: 0;
+}
+
+.about-text.safty-text ul li {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.about-text.safty-text ul li i {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    color: #1FAEFF;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    font-size: 20px;
+}
+
+.about-section {
+    background: var(--wc);
+}
+
+.env-img {
+    float: right;
+    padding: 10px;
+    padding-right: 0;
+    max-width: 500px;
+}
+
+.safty-box h4 {
+    font-size: 30px;
+    padding-bottom: 5px;
+    color: var(--pc);
+}
+
+.safty-box p {
+    font-size: 16px;
+}
+
+.safty-box ul li {
+    list-style: circle;
+    font-size: 16px;
+    padding: 3px 0;
+}
+
+#gallery {
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+}
+#gallery a{
+    width: 100%;
+}
+
+#gallery img,
+#gallery video {
+    width: 100%;
+    height: auto;
+    margin: 4% auto;
+    cursor: pointer;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+.video-gallery h6{
+    font-size: 16px;
+    color: var(--pc);
+    font-weight: 500;
+}
+.video-gallery{
+    padding: 0 5px;
+    background: var(--wc);
+    margin: 10px 0;
+}
+.video-gallery:hover h6{
+    text-decoration: underline;
+}
+
+/*OTHERS PAGE END*/
