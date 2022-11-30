@@ -262,7 +262,10 @@
     }
     .privacy-policy-intro p{
     font-size: 15px;
-}
+    }
+    .accreditation-box h4 {
+    font-size: 22px;
+    }
 
 
 }
